@@ -1,65 +1,69 @@
-# MultiPDF Chat App
+# 🎓 StudyLLM - Your Ultimate Study Pal 📚
 
-> You can find the tutorial for this project on [YouTube](https://youtu.be/dXxQ0LR-3Hg).
+## 🌟 What's It All About?
+-----------------
+Tired of skimming through heaps of notes? Let StudyLLM handle that! This app doesn't just chat with your PDF notes, textbooks, and study materials - it also whips up a 10-question practice exam based on them, complete with solutions! Dive in, ask questions about your PDF content, and prep for exams, all in one place. Language model wizardry at its finest! 🪄💬
 
-## Introduction
-------------
-The MultiPDF Chat App is a Python application that allows you to chat with multiple PDF documents. You can ask questions about the PDFs using natural language, and the application will provide relevant responses based on the content of the documents. This app utilizes a language model to generate accurate answers to your queries. Please note that the app will only respond to questions related to the loaded PDFs.
+## 🚀 The Magic Behind the Curtain
+------------------
 
-## How It Works
-------------
+Here's how StudyLLM weaves its magic:
 
-![MultiPDF Chat App Diagram](./docs/PDF-LangChain.jpg)
+1. **PDF Party**: Upload your PDFs and let the app munch through the content.
+2. **Slice 'n' Dice**: Texts are transformed into digestible pieces, ready for action!
+3. **Brain Gains**: Our language model gets all brainy, digesting each chunk.
+4. **Perfect Match**: Pop a question! StudyLLM hunts for the best match.
+5. **Quick Wits**: Receive a snappy, relevant answer from your PDFs.
+6. **Test Prep**: Fancy a mock test? Get a 10-question practice exam tailored from your content with solutions. 📝✅
 
-The application follows these steps to provide responses to your questions:
-
-1. PDF Loading: The app reads multiple PDF documents and extracts their text content.
-
-2. Text Chunking: The extracted text is divided into smaller chunks that can be processed effectively.
-
-3. Language Model: The application utilizes a language model to generate vector representations (embeddings) of the text chunks.
-
-4. Similarity Matching: When you ask a question, the app compares it with the text chunks and identifies the most semantically similar ones.
-
-5. Response Generation: The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
-
-## Dependencies and Installation
+## 🛠 Get Your Study Space Ready!
 ----------------------------
-To install the MultiPDF Chat App, please follow these steps:
+Eager to dive in? Here's the drill:
 
-1. Clone the repository to your local machine.
-
-2. Install the required dependencies by running the following command:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Obtain an API key from OpenAI and add it to the `.env` file in the project directory.
-```commandline
-OPENAI_API_KEY=your_secrit_api_key
+1. Clone this repository to kick things off. 🚀
+2. Gear up with:
+```bash
+pip install -r requirements.txt
 ```
 
-## Usage
------
-To use the MultiPDF Chat App, follow these steps:
+3. Share your secret OpenAI API passphrase in your `.env` file:
+```commandline
+OPENAI_API_KEY=keep_this_hush_hush
+```
 
-1. Ensure that you have installed the required dependencies and added the OpenAI API key to the `.env` file.
+#### Or Use Docker if you want!
 
-2. Run the `main.py` file using the Streamlit CLI. Execute the following command:
-   ```
-   streamlit run app.py
-   ```
+1. Build the image:
+```bash
+docker build -t studyllm .
+```
 
-3. The application will launch in your default web browser, displaying the user interface.
+2. Run the container:
+```bash
+docker run -e OPENAI_API_KEY=keep_this_hush_hush -p 8501:8501 studyllm
+```
 
-4. Load multiple PDF documents into the app by following the provided instructions.
 
-5. Ask questions in natural language about the loaded PDFs using the chat interface.
+## 🎈 Quiz and Chat Time!
 
-## Contributing
-------------
-This repository is intended for educational purposes and does not accept further contributions. It serves as supporting material for a YouTube tutorial that demonstrates how to build this project. Feel free to utilize and enhance the app based on your own requirements.
+Let's get you started with StudyLLM:
 
-## License
--------
-The MultiPDF Chat App is released under the [MIT License](https://opensource.org/licenses/MIT).
+1. Equip yourself with the needed tools and your secret API key.
+
+2. Ignite the fun:
+```bash
+streamlit run app.py
+```
+
+3. 🚀 Your web browser springs to life with StudyLLM all set.
+
+4. Load up your PDF notes, textbooks, or any study material.
+
+5. Ask, learn, and when ready, generate a mock test to challenge yourself!
+
+## 🤓 Share, Learn, But Keep It Here...
+
+Crafted with love for all you learners! This repository, though, is primarily educational. We're not taking any more assignments (aka contributions). However, feel free to customize it for your learning spree!
+📜 That Legal Bit
+
+StudyLLM is at your service under the **MIT License**. Dive deep, stay inquisitive, and here's to acing those exams! 🎓🚀📚
