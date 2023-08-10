@@ -64,6 +64,7 @@ streamlit run app.py
 ## 🤓 Share, Learn, But Keep It Here...
 
 Crafted with love for all you learners! This repository, though, is primarily educational. We're not taking any more assignments (aka contributions). However, feel free to customize it for your learning spree!
-📜 That Legal Bit
+
+## 📜 That Legal Bit
 
 StudyLLM is at your service under the **MIT License**. Dive deep, stay inquisitive, and here's to acing those exams! 🎓🚀📚
