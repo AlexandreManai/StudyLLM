@@ -1,5 +1,8 @@
 # 🎓 StudyLLM - Your Ultimate Study Pal 📚
 
+### News
+- **[Soon]**: I'll build a more production-ready version 🐳
+
 ## 🌟 what's It All About?
 -----------------
 Tired of skimming through heaps of notes? Let StudyLLM handle that! This app doesn't just chat with your PDF notes, textbooks, and study materials - it also whips up a 10-question practice exam based on them, complete with solutions! Dive in, ask questions about your PDF content, and prep for exams, all in one place. Language model wizardry at its finest! 🪄💬
